@@ -45,11 +45,11 @@
 				for (var j=0; j<world[i].length; j++){
 					if (world[i][j] == 2)
 						output += "<div class='brick'></div>";
-					else if(world[i][j] == 1)
+					if(world[i][j] == 1)
 						output += "<div class='coin'></div>";
 					if(world[i][j] == 0)
 						output += "<div class='empty'></div>";
-					else if(world[i][j] == 3)
+					if(world[i][j] == 3)
 						output += "<div class='bonus'></div>";
 					if(world[i][j] == 5)
 						output += "<div class='endcharacter'></div>";
@@ -87,7 +87,7 @@
 				}				
 			}
 			else if(e.keyCode == 40){
-				pacman.y ++;
+				pacman.y++;
 				if(world[pacman.y][pacman.x] == 2){
 					pacman.y--;
 				}
