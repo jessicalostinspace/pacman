@@ -14,6 +14,26 @@ body{
 	background-color: black;
 }
 
+.inline-flex-row{
+	display: inline-flex;
+	flex-direction: row;
+}
+
+.flex-row{
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-column{
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-column-reverse{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
 div.row{
 	height: 20px;
 }
@@ -82,10 +102,6 @@ div.dancing{
 	border: 2px solid green;
 	color: white;
 	text-align: center;
-	padding: 7px;
-	position: relative;
-    left: 345px;
-    bottom: 257px
 }
 
 /* The Modal (background) */
